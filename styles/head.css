@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Cartero";
+    src: url(../fonts/CarteroRegular.otf);
+}
+.yellowscreen{
+    background-color: #ffcd00;
+    width: 100%;
+    height: 10px;
+}
+header{
+    font-family: "Cartero";
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-height: 70px;
+    border-top: 9px solid #ffcd00;
+    /* border-bottom: 1px solid; */
+    -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 82%;
+}
+.lina-nav{
+    font-size: 1rem;
+    margin-right: 5px;
+    font-weight: bold;
+    color: #002e6d;   
+    cursor: pointer; 
+    margin-right: 20px;
+}
+.lina-nav:hover{
+    text-decoration: underline;
+}

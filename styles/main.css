@@ -1,0 +1,302 @@
+@font-face {
+    font-family: "Cartero";
+    src: url(../fonts/CarteroRegular.otf);
+}
+@font-face {
+    font-family: "Carterolight";
+    src: url(../fonts/CarteroLight.otf);
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Cartero",Arial, Helvetica, sans-serif;
+}
+header{
+    z-index: 1000;
+    background-color: #fff;
+}
+main{
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    height: 680px;
+    column-gap: 10px;
+}
+
+.grid1{
+    height: 100%;
+    width: 50%;
+}
+.imgbackground{
+    object-position:center;
+    object-fit:cover;
+    width: 42%;
+    height: 100%;
+    position: fixed;
+}
+.grid2{
+    width: 60%;
+    margin-left: 150px;
+    height: 100%;
+    z-index: 100;
+    margin-top: 78px;
+    padding-top: 85px;
+}
+
+.inicia{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.text2{
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.register{
+    color: #002e6d;  
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+}
+.register:hover{
+    text-decoration: underline;
+}
+.text3{
+    color: #333;
+    font-size: 24px;
+    font-family: "Carterolight";
+    max-width: 70%;
+    line-height: 1.5;
+    margin-bottom: 40px;
+
+}
+.icon-i{
+    font-size: 17px;
+    color: #002e6d;
+    font-weight: bold;
+}
+.text4{
+    color: #333;
+    font-size: 23px;
+}
+.choose{
+    margin-top: 30px;
+    display: flex;
+    border: 1px solid #002e6d;
+    width: 350px;
+    height: 48px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.divemail,.divtel{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.email,.tel{
+    width: 100%;
+    height: 100%;
+    border-radius: 28px;
+    cursor: pointer;
+    border: none;
+    color: #333;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.email{
+    background-color: #002e6d;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+
+label{
+    position: absolute;
+    color: #666;
+    padding-top: 17px;
+    padding-left: 15px;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.divinputphone {
+    width: 71%;
+    display: flex;
+    gap : 30px;
+}
+.divinput{
+    width: 71%;
+    display: flex;
+    flex-direction: column;
+}
+.divphone{
+    width: 100%;
+}
+#countryselect {
+    width : 150px;
+    height: 53px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px solid #8b8b8b;
+    border-bottom-color: #ffcd00;
+    background-color: #f3f2f2;
+    cursor: pointer;
+    padding-left: 15px;
+    font-size: 16px;
+}
+#labelselect{
+    padding-top: 0;
+    font-size : 13px;
+    color: #002e6d;
+    padding-left: 20px;
+}
+
+.divselect{
+    display: flex;
+    flex-direction: column;
+    justify-content : space-between;
+}
+#countryselect{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.inputemail , .inputtel,.inputsms{
+    width: 100%;
+    height: 53px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px solid #8b8b8b;
+    border-bottom-color: #ffcd00;
+    background-color: #f3f2f2;
+    cursor: pointer;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.inputsms{
+    width: 50%;
+}
+.inputemail:hover{
+    background-color: #dbdbdb;
+
+}
+.erreur-email{
+    color: #f32735;
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 15px;
+    display: none;
+}
+.imgcheck{
+    cursor: pointer;
+
+}
+.labelimg{
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    position: static;
+    color: #333;
+}
+.divcheck{
+    display: flex;
+    align-items: center;
+}
+.divicheck{
+    display: flex;
+    align-items: center;
+}
+#divinput-phone {
+    display: none;
+}
+#submitbtn{
+    font-family: "Cartero",Arial, Helvetica, sans-serif ;
+    width: 170px;
+    height: 53px;
+    background-color: #f3f2f2;
+    border-radius: 7px;
+    border : 1px solid #8b8b8b;
+    color: #8b8b8b;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#submitbtncodigo{
+    font-family: "Cartero",Arial, Helvetica, sans-serif ;
+    width: 170px;
+    height: 53px;
+    background-color: #ffcd00;
+    border-radius: 7px;
+    border : 1px solid #8b8b8b;
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+}
+.finaltext{
+    color: #002e6d;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.finaltext:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #333333;
+    position: relative;
+    bottom: -100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-height: 150px;
+    margin: 0;
+    margin-top: 275px;
+    display: flex;
+    z-index: 1000;
+    justify-content: center;
+}
+
+.divlastfoot{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 15px;
+}
+.apaa{
+    display: flex;
+    color: #fff;
+    gap: 30px;
+}
+
+.containerfooter{
+    display: flex;
+    padding: 25px;
+    width: 85%;
+    gap: 50px;
+    margin-bottom: 0;
+}
+.textapa{
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: "Carterolight";
+}
+.textapa:hover{
+    text-decoration: underline;
+}
+
+.lasttx{
+    color: #b6b6b6;
+}

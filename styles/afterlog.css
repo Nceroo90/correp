@@ -1,0 +1,55 @@
+
+.grid2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+.formlogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#labelpass{
+    width: 20%;
+}
+.log{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.divinput{
+    align-items: center;
+}
+#labelsms{
+    width:20%;
+}
+
+@media (min-width:300px) and (max-width:1000px) {
+    .grid2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    #sms{
+        width: 90%;
+    }
+    .inputsms{
+        width: 90%;
+    }
+    #labelsms , #labelpass{
+        width: 80%;
+    }
+    #submitbtncodigo , #submitbtn{
+        margin-left: 10px;
+    }
+}

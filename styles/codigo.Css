@@ -1,0 +1,36 @@
+
+
+
+.contain-codigo{
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.grid2{
+    padding-top: 60px;
+    margin-left: 0;
+}
+.codigo{
+    margin-left: -50px;
+}
+.verificacion{
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 100px;
+}
+
+.svgi{
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+footer{
+    margin-top: 100px;
+}

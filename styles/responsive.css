@@ -1,0 +1,97 @@
+@media (min-width:300px) and (max-width:1000px) {
+    .grid1{
+        display: none;
+    }
+    .grid2{
+        margin-left: 0px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 35px;
+    }
+    .log{
+        align-items: center;
+    }
+    .divinput{
+        width: 340px;
+    }
+    #divinput-phone{
+        flex-direction: column;
+        width: 100%;
+    }
+    #countryselect{
+        width: 100%;
+    }
+    .divinputphone{
+        gap: 20px;
+    }
+    .inicia{
+        font-size: 32px;
+        width: 90%;
+    }
+    .text2{
+        font-size: 16px;
+        width: 90%;
+    }
+    .text3{
+        font-size: 19px;
+        width: 90%;
+        max-width: 100%;
+    }
+    .text4{
+        width: 90%;
+        font-size: 19px;
+    }
+    .formlogin{
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .choose{
+        width: 90%;
+    }
+    .inputemail, .inputtel{
+        width: 90%;
+    }
+    .log{
+        width: 100%;
+    }
+    #divinput-email , .divinput{
+        width: 90%;
+    }
+    .divphone{
+        width: 100%;
+    }
+    .divselect{
+        width: 95%;
+    }
+    #divinput-phone{
+        width: 90%;
+    }
+    .divcheck{
+        width: 90%;
+    }
+    .divbtnsubmit{
+        width: 90%;
+    }
+    .finaltext{
+        width: 90%;
+    }
+    footer{
+        margin-top: 100px;
+        flex-direction: column;
+        height: 100%;
+        max-height: 100%;
+    }
+    .containerfooter{
+        flex-direction: column;
+        gap: 5px;
+        padding: 20px;
+    }
+    .apaa{
+        flex-direction: column;
+        gap: 1px;
+    }
+}
